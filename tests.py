@@ -3,3 +3,7 @@ def capital_case(x):
 
 def test_capital_case():
     assert capital_case('semaphore') == 'Semaphore'
+    
+    
+def test_deps():
+    assert get_db()
